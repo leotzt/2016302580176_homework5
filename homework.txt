@@ -59,8 +59,28 @@ P2.
 
 P3.
  Step      N’         D(t),p(t)         D(u),p(u)             D(v),p(v)           D(w),p(w)        D(y),p(y)       D(z),p(z) 
- 0         x                                                     3,x                  6,x             6,x             8,x
- 1         xv            7,v                6,v                  3,x                  6,x             6,x             8,x
- 2         xvu
- 3         xvuw
- 4         xvuwy
+ 0         x              ∞                 ∞                    3,x                 6,x             6,x             8,x
+ 1         xv            7,v                6,v                                      6,x             6,x             8,x
+ 2         xvu           7,v                                                         6,x             6,x             8,x
+ 3         xvuw          7,v                                                                         6,x             8,x
+ 4         xvuwy         7,v                                                                                         8,x
+ 5         xvuwyt                                                                                                    8,x
+ 6         xvuwytz
+
+
+P5.
+           x        v         u          y
+ z         2        6         ∞          ∞
+ 
+ z(x)      2        5         7          5
+ 
+ z(x,v)    2        5         6          5
+ 
+P7.
+ a).  D(w)=2 D(y)=4 D(u)=7
+ b).  if c(x,y)<1 , the D(u)=c(x,y)+6<7 
+      if c(x,w)<2 , D(u)=5+c(x,w)
+      if 6>c(x,w)>2 , D(u)=c(x,w)+5
+      if c(x,w)>6 , D(u)=c(x,y)+6=11
+ c).  if c(x,y) becomes larger, it will not inform D(u).
+ 
